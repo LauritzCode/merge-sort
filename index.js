@@ -1,6 +1,9 @@
+// example array
+
 const array = [
   1, 4, 7, 3, 65, 23, 66, 555, 543, 11, 13, 43, 343, 234567, 34, 22,
 ];
+
 
 const mergeArrays = (arr1, arr2) => {
   let sortedArr = [];
@@ -29,6 +32,8 @@ const mergeArrays = (arr1, arr2) => {
 
   return sortedArr;
 };
+
+
 
 const mergeSort = (arr) => {
   if (arr.length <= 1) return arr;
